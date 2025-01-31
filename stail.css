@@ -1,0 +1,57 @@
+.text-box h3 {
+  color: pink;
+}
+
+#greycol {
+  color: grey;
+}
+
+.text-box p {
+  color: green;
+}
+
+.text-box p.yellow {
+  color: yellow;
+}
+
+.text-box div p {
+  color: red;
+}
+
+.week-schedule ul li:nth-child(1) {
+  color: blue;
+}
+
+.week-schedule ul li:nth-child(2) {
+  color: green;
+}
+
+.week-schedule ul li:nth-child(3) {
+  color: red;
+}
+
+.week-schedule ul li:nth-child(4) {
+  color: orange;
+}
+
+.week-schedule ul li:nth-child(5) {
+  color: purple;
+}
+
+/* Додаткові ефекти */
+.week-schedule ul li:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.week-schedule ul li:first-child {
+  border-bottom: 2px solid black;
+}
+
+.week-schedule ul li:last-child {
+  font-style: italic;
+}
+
+.week-schedule ul li:nth-child(even) {
+  background-color: #f0f0f0;
+}
